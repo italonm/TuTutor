@@ -1,3 +1,3 @@
 <template>
-    <p>Citas</p>
+    <p>HOLAAAAAA SOY VALE!!</p>
 </template>>
