@@ -17,11 +17,12 @@
   </el-row>
   </el-header>
   <el-main style="height:80%">
-    <el-table :data="tableData" border style="width: 100%;border-radius: 25px 25px 25px 25px" height="100%" :row-class-name="tableRowClassName">
+    <el-table :data="tableData"   style="width: 100%;border-radius: 25px 25px 25px 25px" height="100%" :row-class-name="tableRowClassName">
     <el-table-column
       prop="date"
       label="Fecha"
       width="180">
+      
     </el-table-column>
     <el-table-column
       prop="name"
