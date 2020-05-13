@@ -1,3 +1,3 @@
 <template>
-    <p>Sesiones Amiguitos D:</p>
+    <p>Sesiones Amiguitos UWU D:</p>
 </template>>
