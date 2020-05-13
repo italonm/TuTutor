@@ -4,7 +4,7 @@
   <el-header class="head" style="height:20%;">
     <el-row style="width:100%" type="flex" class="row-bg" justify="space-around">
       <el-col :span="6"><div class="bg-purple">
-        <h2><i class="el-icon-user-solid"></i>&nbsp;Usuarios</h2>
+        <h2><i class="fas fa-users"></i>&nbsp;Usuarios</h2>
       </div></el-col>
       <el-col :span="6"><div class="grid-content bg-purple-light">
         <el-input placeholder="Buscar usuario" v-model="input">
@@ -12,7 +12,7 @@
         </el-input>
       </div></el-col>
       <el-col :span="6"><div class="grid-content bg-purple">
-      <el-button type="primary" icon="el-icon-circle-plus">Agregar</el-button>
+      <el-button type="primary" icon="fas fa-user-plus">&nbsp;Agregar</el-button>
       </div></el-col>
   </el-row>
   </el-header>

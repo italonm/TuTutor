@@ -3,7 +3,7 @@
       <!-- Barra de navegación -->
       <el-menu :router="true" default-active="2" @open="handleOpen" @close="handleClose" :collapse="isCollapse" background-color="#1e2129" text-color="#fff" active-text-color="#ffd04b">
         <el-menu-item :router="false" index="Plantilla" @click="display">
-          <i class="el-icon-menu"></i>
+          <i class="fas fa-university icon-4x"></i>&nbsp;
           <span slot="title">TuTutor</span>
         </el-menu-item>
         <!--Alumno FACI-->
@@ -145,7 +145,7 @@
             <el-col :span="3" style="height:100%;">
               <div class="grid-content bg-purple" style="height:100%;position:relative">
                 <el-dropdown class="intermedio">
-                  <span class="el-dropdown-link"><i class="el-icon-arrow-down el-icon-menu" style="color:white;font-size: 1.3rem;"></i></span>
+                  <span class="el-dropdown-link"><i class="fas fa-list-ul" style="color:white;font-size: 1.3rem;"></i></span>
                   <el-dropdown-menu slot="dropdown">
                     <el-dropdown-item icon="el-icon-user-solid">Mi cuenta</el-dropdown-item>
                     <el-dropdown-item icon="el-icon-circle-close">Cerrar sesión</el-dropdown-item>
