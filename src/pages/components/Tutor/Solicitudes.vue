@@ -1,3 +1,3 @@
 <template>
-    <p>Solicitudes no acepto porque estamos en cuarentena xd</p>
+    <p>Solicitudes no acepto porque estamos en cuarentena xdddddddddddddd</p>
 </template>>
