@@ -1,7 +1,7 @@
 <template>
   <el-container style="height: 100%; border: 1px solid #eee">
       <!-- Barra de navegación -->
-      <el-menu :router="true" default-active="2" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose" :collapse="isCollapse" background-color="#545c64" text-color="#fff" active-text-color="#ffd04b">
+      <el-menu :router="true" default-active="2" @open="handleOpen" @close="handleClose" :collapse="isCollapse" background-color="#1e2129" text-color="#fff" active-text-color="#ffd04b">
         <el-menu-item :router="false" index="Plantilla" @click="display">
           <i class="el-icon-menu"></i>
           <span slot="title">TuTutor</span>
@@ -130,7 +130,7 @@
     
     <el-container>
       <!-- Cabecera -->
-      <el-header style="text-align: right; font-size: 12px ;height:15%">
+      <el-header class="headerfooter" style="text-align: right; font-size: 12px ;height:15%">
         <el-row :gutter="20" style="height:100%">
             <el-col :span="6" style="height:100%;padding-top:5px;padding-bottom:5px;">
               <div class="grid-content bg-purple " style="height:100%;">
@@ -164,10 +164,11 @@
       </el-header>
 
       <!-- Contenido -->
-      <el-main>
-        <router-view style="height:80%"></router-view>
-      </el-main>
-      <el-footer style="height:10%">
+      <el-container style="height:75%">
+        <router-view style="height:100%"></router-view>
+      </el-container>
+
+      <el-footer class="headerfooter" style="height:10%">
         <el-row :gutter="20"  style="height:100%">
           <el-col :span="6" style="height:100%"><div class="grid-content bg-purple" style="height:100%">
             <label class="usuario" style="font-size:x-small !important;">© Pontificia Universidad Católica del Perú<br>Lima-32 PERU Telf. (511) 6262000</label>
@@ -181,7 +182,7 @@
   </el-container>
 </template>
 
-<style>
+<style >
 @import url("//unpkg.com/element-ui@2.13.1/lib/theme-chalk/index.css");
 .usuario{
   text-align: left;
@@ -205,7 +206,7 @@
 .el-icon-arrow-down {
   font-size: 12px;
 }
-.el-footer, .el-header {
+.headerfooter {
   background-color: #006181;
   color: rgb(255, 255, 255);
   text-align: center;
