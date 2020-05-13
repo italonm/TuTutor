@@ -1,6 +1,6 @@
 <template>
     <div>
     <p>Alumnos</p>
-    <h1>This is the first project</h1>
+    <h2>This is a new project</h2>
     </div>
 </template>
