@@ -1,3 +1,3 @@
 <template>
-    <p>Sesiones</p>
+    <p>Sesiones Amiguitos D:</p>
 </template>>
